@@ -470,6 +470,8 @@ body {
   background-color: var(--primary-accent-color);
   border: transparent;
   border-radius: 4px;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .item-button:not(:last-child) {
@@ -481,6 +483,11 @@ body {
 .list-examples {
   display: flex;
   flex-wrap: wrap;
+}
+
+.item-examples:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .item-examples {
